@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pastelería</title>
+
+    </head>
+    <body>
+        <div id="Logo">Logo de la Pastelería</div>
+        <div id="menu">
+            <nav> 
+            <ul class="nav">
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Nuestros Pasteles</a>
+					
+				</li>
+				
+				<li><a href="">Contacto</a></li>
+			</ul>
+            </nav>
+        </div>
+        <div id="imagenprincipal">
+            <img src="./assets/img/pastel.jpg" alt="">
+        </div>
+        <br>
+        <header>
+           <h2>Pedido</h2> 
+        </header>
+        <form action="pedido.js">
+            <label for="nombre">Ingresa tu nombre</label><br>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresa su nombre">
+            <br>
+            <br>
+            <label for="direccion">Ingresa tu direccion</label><br>
+            <input type="text" name="direccion" id="direccion" placeholder="Ingresa tu direccion">
+            <br>
+            <br>
+            <label for="telefono">Ingresa tu teléfono</label><br>
+            <input type="text" name="telefono" id="telefono" placeholder="Ingresa tu telefono">
+            <br>
+            <br>
+            <label for="telefono">Ingresa tu teléfono</label><br>
+            <input type="text" name="telefono" id="telefono" placeholder="Ingresa tu telefono">
+            <br>
+            <p>Tipo de pastel</p>
+            <input type="radio" name="tipopastel" id="tres" value="tresleches">
+            <label for="tres">Tres Leches</label>
+            <br>
+            <input type="radio" name="tipopastel" id="mantequilla" value="mantequilla">
+            <label for="mantequilla">Mantequilla</label>
+            <br>
+            <input type="radio" name="tipopastel" id="esponjoso" value="Esponjoso">
+            <label for="esponjoso">Esponjoso</label>
+            <br>
+            <p>Complemento extra</p>
+            <input type="checkbox" name="fresa" id="fresa" value="Fresas">
+            <label for="fresa">Fresas</label>
+            <input type="checkbox" name="nuez" id="nuez" value="Nuez">
+            <label for="nuez">Nuez</label>
+            <br>
+            <p>Personalizado</p>
+            <label for="pernalizado">Escriba la frase que llevará el pastel</label><br>
+            <input type="text" name="personalizado" id="personalizado" placeholder="Ejemplo: Feliz Aniversario">
+
+        </form>
+        <footer>
+            <p>Dirección: isla del carmen #200, Colonia centro, Teléfono: 811-21-48</p>
+        </footer>
+    </body>
+</html>
